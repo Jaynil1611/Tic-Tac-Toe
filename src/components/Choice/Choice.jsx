@@ -32,9 +32,9 @@ function Choice() {
 
   return (
     <div className="choice__container">
-      <h2>
-        <em>{player1.name}</em>, select your choice
-      </h2>
+      <div className="player__name">
+        <em>{player1.name}</em>, please select your choice
+      </div>
       <div className="choice">
         <div className="input__radio">
           <img width="100%" src={Cross} alt="X" />
