@@ -1,7 +1,7 @@
 export const initialState = {
   player1: {
     name: "",
-    choice: "",
+    choice: "X",
     score: 0,
   },
   player2: {
