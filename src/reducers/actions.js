@@ -1,0 +1,4 @@
+export const actions = {
+  UPDATE_PLAYER_DETAILS: "UPDATE_PLAYER_DETAILS",
+  START_NEW_GAME: "START_NEW_GAME",
+};

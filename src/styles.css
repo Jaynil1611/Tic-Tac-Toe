@@ -1,0 +1,32 @@
+:root {
+  --background-color: #f7f7f7;
+  --accent-color: #fd7014;
+  --text-color: rgba(255, 255, 255, 0.92);
+  --heading-color: #1a1e2c;
+  --light-color: #eeeeee;
+  --secondary-color: #393e46;
+  --transparent-color: rgba(226, 232, 240, 0.16);
+  --focus-color-primary: #993d01;
+  --hover-color-primary: #ed5f02;
+  --hover-color-secondary: #2a2d33;
+  --success-color: #4caf50;
+  --error-color: #f44336;
+  --warning-color: #ff9800;
+  --invert-text-color: #2d3748;
+  --z-index-1: 1;
+  --z-index-3: 3;
+  --z-index-5: 5;
+  --z-index-7: 7;
+  --z-index-10: 10;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+.hero {
+  font-family: cursive;
+  font-weight: 500;
+  font-size: 2rem;
+  text-align: center;
+}

@@ -1,0 +1,63 @@
+.game__container {
+  display: grid;
+  align-items: center;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.winner__display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.score__display {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.score__card {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--secondary-color);
+  width: 100%;
+  color: var(--text-color);
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.player__name {
+  font-size: 1.5rem;
+  font-family: cursive;
+}
+
+.text--center {
+  display: flex;
+  justify-content: center;
+}
+
+.game__board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 2rem 0.5rem;
+}
+
+.spacing {
+  padding: 1rem;
+  min-height: 65px;
+  min-width: 40px;
+  border: 1px solid lightgray;
+}
+
+@media screen and (min-width: 768px) {
+  .game__board {
+    margin: 2rem 20%;
+  }
+
+  .spacing {
+    padding: 1.5rem 6rem;
+    min-height: 120px;
+    min-width: 80px;
+  }
+}
